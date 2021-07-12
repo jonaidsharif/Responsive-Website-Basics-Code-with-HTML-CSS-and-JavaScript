@@ -1,0 +1,55 @@
+@media (min-width: 275px) {
+	body {
+		background: #F5F5DC url("http://blog.dudamobile.com/wp-content/uploads/2014/03/Responsive-Web-Design.png") no-repeat fixed center; 
+  }
+	h1 {
+		background-color: #20B2AA; 
+		color: #7B68EE; 
+		font-family: "Lucida Console", Courier, monospace; 
+		text-transform: capitalize; 
+		text-align: center; 
+		font-weight: normal; 
+	}
+	h1:hover {
+		color: #000000; 
+		text-transform: lowercase; 
+		font-size: 40px; 
+	}
+}
+@media (min-width: 750px) {
+	body {
+		background: #DCDCDC url("http://blog.dudamobile.com/wp-content/uploads/2014/03/Responsive-Web-Design.png") no-repeat fixed center;
+	}
+	h1 {
+		background-color: #F8F8FF; 
+		color: #708090; 
+		font-family: "Trebuchet MS", Helvetica, sans-serif; 
+		text-transform: lowercase; 
+		text-align: center;
+		font-weight: bold; 
+	h1:hover {
+		color: #4B0082; 
+		text-transform: capitalize; 
+		font-size: 50px; 
+		font-weight: normal;
+	}
+}
+
+@media (min-width: 1000px) {
+	body {
+		background: #008080 url("http://blog.dudamobile.com/wp-content/uploads/2014/03/Responsive-Web-Design.png") no-repeat fixed center;
+	}
+	h1 {
+		background-color: #2F4F4F; 
+		color: #F5F5F5; 
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+		text-transform: uppercase; 
+		text-align: center; 
+		font-weight: bold; 
+	}
+	h1:hover {
+		color: #000000;
+		text-transform: lowercase; 
+		font-size: 80px; 
+	}
+}
